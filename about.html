@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index-Minify.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Pacifico&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+
+<body >
+
+    <section class="container w-50  border-4 p-5 text-center about">
+        <h1 class="mb-5 text-black fw-bolder">Smart Login System</h1>
+
+        <div class="px-4">
+            <input oninput="dateValidation(this)" class="form-control mb-4" type="text" placeholder="Enter your name"
+                id="createName">
+
+              
+
+
+            <input oninput="dateValidation(this)" class="form-control mt-4" type="email" placeholder="Enter your email"
+                 id="createEmail">
+
+                 
+
+
+            <input oninput="dateValidation(this)" type="password" class="form-control py-1 px-2 mt-4"
+                placeholder="Enter your password"  id="createPassword">
+
+
+                
+                <p class="text-white mt-4 bg-danger  py-2 bg-opacity-75 rounded-5 exist d-none">The email is already exist !!!</p>
+
+
+            <button type="button" class="btn btn-primary w-100 my-5" onclick="addData()">Sign up</button>
+            <span class="text-primary-emphasis">You have an account? <a href="index.html" class=" text-primary-emphasis">Sign in</a></span>
+
+
+
+            
+
+
+
+
+        </div>
+
+
+    </section>
+
+    <script src="Js/about.js"></script>
+
+</body>
+
+</html>

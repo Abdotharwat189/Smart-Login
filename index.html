@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <link rel="stylesheet" href="Css/index-Minify.css">
+  <link rel="stylesheet" href="Css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <title>Smart Login</title>
+</head>
+
+<body class="b">
+
+  <section class="container w-50 border-4 p-5 text-center index">
+    <h1 class="mb-5 text-black fw-bolder">Smart Login System</h1>
+
+    <div class="px-4">
+      <input class="form-control mb-4" type="email" placeholder="enter your email" aria-label="default input example"
+      id="Email"
+      oninput="">
+
+
+      <input class="form-control" type="password" placeholder="enter your password"
+        aria-label="default input example"
+        id="Password" 
+        oninput="">
+
+
+        <p class="text-white mt-4 bg-danger error py-2 bg-opacity-75 rounded-5 d-none">incorrect email or password</p>
+
+        <button href="home.html" type="button" class="btn btn-primary w-100 my-5" onclick="Login()" >Login</button>
+
+
+        <span class="text-primary-emphasis">Don’t have an account? <a href="about.html" class="text-primary-emphasis">Sign Up</a></span>
+
+
+
+    </div>
+
+
+  </section>
+
+  <script src="Js/index.js"></script>
+
+</body>
+
+</html>
